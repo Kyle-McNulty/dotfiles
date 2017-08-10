@@ -1,0 +1,30 @@
+# Redirect phone calls to another number:
+  *21*<numbertoberedirectedto># then send *21*
+
+# Git and Github
+git rm --cached                                         # removes from stage, leaves tracked
+git clone git@github.com:virtalabs/medscan              # clones using gpg keys
+git diff branchname 1 branchname 2                      # shows the differences between the two branches
+
+# NPM
+./node_modules/.bin/webpack -d --watch                  # starts webpack and leaves it watching
+
+# Python
+python -m SimpleHTTPServer                              # starts a simple web server serving files
+
+# Miscellaneous programs for me to look into
+docker                                                  # VM container
+z shell                                                 # Different shell
+firesheep                                               # Cookie sniffing in Firefox on WEP
+
+# UNIX Commands
+find / -name *.py  2>&1 | grep -v "Permission denied"   # Finds a file and does not show results where permission was denied
+grep -rl <line in code> .                               # Searches a directory and subdirectories for a given line
+
+# SSH
+ssh -L 8834:localhost:8834 beast                        # SSH into a remote machine with port forwarding
+sshuttle -r beast 0/0                                   # Use the remote address as a proxy
+
+# Blueflow Specific
+sudo systemctl restart blueflow                         # restarts medscan-v1
+
