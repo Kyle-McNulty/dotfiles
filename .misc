@@ -28,3 +28,5 @@ sshuttle -r beast 0/0                                   # Use the remote address
 # Blueflow Specific
 sudo systemctl restart blueflow                         # restarts medscan-v1
 
+# Crypto
+echo "text here" | tr '[A-Za-z]' '[N-ZA-Mn-za-m]'       # rot13
