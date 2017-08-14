@@ -22,6 +22,7 @@ find / -name *.py  2>&1 | grep -v "Permission denied"   # Finds a file and does 
 grep -rl <line in code> .                               # Searches a directory and subdirectories for a given line
 
 # SSH
+ssh -i <private key file> localhost -p 2220             # ssh into localhost on port 2220 using a private key
 ssh -L 8834:localhost:8834 beast                        # SSH into a remote machine with port forwarding
 sshuttle -r beast 0/0                                   # Use the remote address as a proxy
 
@@ -29,4 +30,10 @@ sshuttle -r beast 0/0                                   # Use the remote address
 sudo systemctl restart blueflow                         # restarts medscan-v1
 
 # Crypto
-echo "text here" | tr '[A-Za-z]' '[N-ZA-Mn-za-m]'       # rot13
+echo "text here" | tr '[A-Za-z]' '[N-ZA-Mn-za-m]'       # rot13 encoding
+
+# OPENSSL
+openssl s_client -connect localhost:28000               # connect to localhost over port 28000 using SSL
+
+# Telnet
+telnet localhost 28000                                  # basic telnet command to connect to localhost on port 28000
