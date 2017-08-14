@@ -37,3 +37,7 @@ openssl s_client -connect localhost:28000               # connect to localhost o
 
 # Telnet
 telnet localhost 28000                                  # basic telnet command to connect to localhost on port 28000
+
+# Tar
+tar -xvf <filename>                                     # decompress a tar file
+tar -cpf <mytar.tar.gz> <file or directory to compress> # compress a file or directory
