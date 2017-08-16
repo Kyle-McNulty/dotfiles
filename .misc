@@ -41,3 +41,12 @@ telnet localhost 28000                                  # basic telnet command t
 # Tar
 tar -xvf <filename>                                     # decompress a tar file
 tar -cpf <mytar.tar.gz> <file or directory to compress> # compress a file or directory
+
+# Program Hangup
+nohup python-script.py &                                # keeps a script/program running as a job
+
+# Screen
+screen                                                  # starts a screen session
+<script/program>                                        # starts program in session
+ctrl + a --> ctrl + d                                   # detaches the process and leaves running after logout
+screen -r                                               # resume the session
