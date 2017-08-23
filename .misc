@@ -19,7 +19,8 @@ firesheep                                               # Cookie sniffing in Fir
 
 # UNIX Commands
 find / -name *.py  2>&1 | grep -v "Permission denied"   # Finds a file and does not show results where permission was denied
-grep -rl <line in code> .                               # Searches a directory and subdirectories for a given line
+grep -rl <line in code> .                               # Searches a directory recursively for a given line
+grep -C 3 -r "Interval" .                               # Searches a directory recursively for a word/phrase and displays 3 lines before and after
 
 # SSH
 ssh -i <private key file> localhost -p 2220             # ssh into localhost on port 2220 using a private key
