@@ -52,3 +52,7 @@ screen                                                  # starts a screen sessio
 <script/program>                                        # starts program in session
 ctrl + a --> ctrl + d                                   # detaches the process and leaves running after logout
 screen -r                                               # resume the session
+
+# File Transfer
+scp ~/.ssh/keypair.pub <user>@<IP>:~                    # copies the public keypair to the user's home directory
+sftp <user>@<ip>                                        # opens an sftp connection on the target machine
