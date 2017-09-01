@@ -29,6 +29,7 @@ auto-complete a word you are typing **   CTRL + n
 bookmark current place in file           mX (X = key to assign bookmark to)    
 jump to bookmark                         `X (X = key bookmark was assigned to  
                                              ` = back tick/tilde key)          
+copy to clipboard                        :w !pbcopy
 show all bookmarks                       :marks                                
 delete a bookmark                        :delm X (X = key bookmark to delete)   
 delete all bookmarks                     :delm!                                 
