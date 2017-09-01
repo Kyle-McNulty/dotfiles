@@ -1,5 +1,5 @@
 # List of helpful Vim commands
-# copied from: https://stackoverflow.com/questions/1276403/simple-vim-commands-you-wish-youd-known-earlier
+# derived from: https://stackoverflow.com/questions/1276403/simple-vim-commands-you-wish-youd-known-earlier
 
 select                                   v                                     
 select row(s)                            SHIFT + v                             
