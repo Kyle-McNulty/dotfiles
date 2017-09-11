@@ -10,3 +10,7 @@ https://docs.python.org/3/library/re.html                       # Python documen
 
 # Bug Reports
 https://www.chiark.greenend.org.uk/~sgtatham/bugs.html          # discusses a good vs. bad bug report and what to keep in mind when reporting
+
+# Web Hosting
+https://wiki.python.org/moin/FreeHosts                          # list of free web hosting sites for basic scripts/apps
+https://www.heliohost.org/                                      # free web hosting site, 1GB storage
