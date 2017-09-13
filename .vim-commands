@@ -5,9 +5,11 @@ go to end of line                        $
 go to beginning of line                  0
 go to end of file                        G
 go to beginning of file                  gg
-go back a word                           b
-go forward a word                        w
+go to beginning of the word              b
+go to the start of the next word         w
+go to the end of the word                e
 delete selection                         d
+find a phrase                            f<phrase>
 copy                                     "*y
 paste                                    "*p
 
