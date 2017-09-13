@@ -3,7 +3,7 @@
 
 # Git and Github
 git rm --cached                                         # removes from stage, leaves tracked
-git clone git@github.com:virtalabs/medscan              # clones using gpg keys
+git clone git@github.com:virtalabs/medscan              # clones using ssh keys
 git diff branchname 1 branchname 2                      # shows the differences between the two branches
 
 # NPM
