@@ -1,6 +1,16 @@
 # List of helpful Vim commands
 # derived from: https://stackoverflow.com/questions/1276403/simple-vim-commands-you-wish-youd-known-earlier
 
+go to end of line                        $
+go to beginning of line                  0
+go to end of file                        G
+go to beginning of file                  gg
+go back a word                           b
+go forward a word                        w
+delete selection                         d
+copy                                     "*y
+paste                                    "*p
+
 select                                   v                                     
 select row(s)                            SHIFT + v                             
 select blocks (columns)                  CTRL  + v                             
