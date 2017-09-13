@@ -15,7 +15,12 @@ https://www.chiark.greenend.org.uk/~sgtatham/bugs.html          # discusses a go
 https://wiki.python.org/moin/FreeHosts                          # list of free web hosting sites for basic scripts/apps
 https://www.heliohost.org/                                      # free web hosting site, 1GB storage
 
-# CTF
+# CTF Sites
 root-me.org
 overthewire.org
 vulnhub.com
+
+# CTF Resources
+https://docs.python.org/2/library/struct.html                   # struct documentation for reading and sending bytes
+https://github.com/Gallopsled/pwntools                          # pwntools library for network binary exploitation
+https://ropemporium.com/                                        # learning site for ROP programming
