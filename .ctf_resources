@@ -1,0 +1,18 @@
+# List of useful programs for CTFs
+
+# Forensics
+xxd                                                                     # hex dump of a file
+stegsolve                                                               # allows you to apply different filters over images
+Wireshark                                                               # traffic analyzer
+
+# Web App
+sqlmap                                                                  # automate SQLi
+Burpsuite                                                               # intercept connection, look at requests and responses, fuzzing
+nmap                                                                    # helpful all around networking tool
+netcat                                                                  # simple networking from command line
+Web Scarab                                                              # alternative to Burpsuite
+
+# Binary Exploitation
+Radare2                                                                 # reverse engineering framework
+gdb                                                                     # debugger
+IDA                                                                     # reverse engineering and disassembling
