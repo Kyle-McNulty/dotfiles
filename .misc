@@ -56,3 +56,6 @@ screen -r                                               # resume the session
 # File Transfer
 scp ~/.ssh/keypair.pub <user>@<IP>:~                    # copies the public keypair to the user's home directory
 sftp <user>@<ip>                                        # opens an sftp connection on the target machine
+
+# Networking
+dig +short <domain name>                                # retrieves IP address for given domain name
