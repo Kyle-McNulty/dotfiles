@@ -2,7 +2,6 @@
 
 
 # Assembly
-https://hackcenter.com/                                         # site for learning assembly (AT&T)
 http://www.cs.virginia.edu/~evans/cs216/guides/x86.html         # cheat sheet for assembly commands
 
 # Regex
@@ -22,6 +21,7 @@ http://www.openvim.com/tutorial.html                            # interactive tu
 root-me.org
 overthewire.org
 vulnhub.com
+hackcenter.com                                                  # site for learning assembly (AT&T)
 
 # CTF Resources
 https://docs.python.org/2/library/struct.html                   # struct documentation for reading and sending bytes
