@@ -22,6 +22,7 @@ find / -name *.py  2>&1 | grep -v "Permission denied"   # Finds a file and does 
 grep -rl <line in code> .                               # Searches a directory recursively for a given line
 grep -C 3 -r "Interval" .                               # Searches a directory recursively for a word/phrase and displays 3 lines before and after
 grep -r --exclude-dir={node_modules,.venv} "Interval" . # Searches a directory recursively, excludes directories listed
+dpkg -L                                                 # Lists all packages on system
 
 # SSH
 ssh -i <private key file> localhost -p 2220             # ssh into localhost on port 2220 using a private key
