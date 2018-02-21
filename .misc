@@ -25,6 +25,8 @@ grep -rl <line in code> .                               # Searches a directory r
 grep -C 3 -r "Interval" .                               # Searches a directory recursively for a word/phrase and displays 3 lines before and after
 grep -r --exclude-dir={node_modules,.venv} "Interval" . # Searches a directory recursively, excludes directories listed
 dpkg -L                                                 # Lists all packages on system
+gpg -c <filename>                                       # Encrypts file with private key GPG
+gpg <filename>                                          # Decrypts file using private key password
 
 # SSH
 ssh -i <private key file> localhost -p 2220             # ssh into localhost on port 2220 using a private key
