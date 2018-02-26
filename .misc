@@ -13,6 +13,8 @@ git diff branchname 1 branchname 2                      # shows the differences 
 
 # Python
 python -m SimpleHTTPServer                              # starts a simple web server serving files
+python3 -m venv .venv                                   # creates a new virtual environment in .venv folder in current directory
+source .venv/bin/activate                               # activates virtual environment in current directory
 
 # Miscellaneous programs for me to look into
 docker                                                  # VM container
