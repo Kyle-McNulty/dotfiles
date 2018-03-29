@@ -19,7 +19,6 @@ source .venv/bin/activate                               # activates virtual envi
 # Miscellaneous programs for me to look into
 docker                                                  # VM container
 z shell                                                 # Different shell
-firesheep                                               # Cookie sniffing in Firefox on WEP
 
 # UNIX Commands
 find / -name *.py  2>&1 | grep -v "Permission denied"   # Finds a file and does not show results where permission was denied
@@ -29,6 +28,7 @@ grep -r --exclude-dir={node_modules,.venv} "Interval" . # Searches a directory r
 dpkg -L                                                 # Lists all packages on system
 gpg -c <filename>                                       # Encrypts file with private key GPG
 gpg <filename>                                          # Decrypts file using private key password
+gcc -Wall -std=gnu99 -o <executable name> <source code name> # compiles a C program with warnings and ability to rename
 
 # SSH
 ssh -i <private key file> localhost -p 2220             # ssh into localhost on port 2220 using a private key
